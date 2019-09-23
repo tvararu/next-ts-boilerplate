@@ -1,0 +1,22 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: cypress/base:10.16.0
+        environment:
+          # This enables colors in the output
+          TERM: xterm
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+            - yarn-packages-
+      - run: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
+      - save_cache:
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache
+      - run: yarn jest
+      - run: yarn build
+      - run: yarn ci
