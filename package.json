@@ -33,7 +33,7 @@
     "jest": "^24.9.0",
     "next-purgecss": "^3.1.1",
     "now": "^16.3.1",
-    "react-test-renderer": "^16.10.1",
+    "react-test-renderer": "^16.10.2",
     "start-server-and-test": "^1.10.4",
     "tailwindcss": "^1.1.2",
     "typescript": "^3.6.3"
