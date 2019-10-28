@@ -32,7 +32,7 @@
     "cypress": "^3.5.0",
     "jest": "^24.9.0",
     "next-purgecss": "^3.1.1",
-    "now": "^16.4.0",
+    "now": "^16.4.3",
     "react-test-renderer": "^16.11.0",
     "start-server-and-test": "^1.10.6",
     "tailwindcss": "^1.1.3",
