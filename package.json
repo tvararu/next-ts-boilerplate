@@ -34,7 +34,7 @@
     "next-purgecss": "^3.1.2",
     "now": "^17.0.4",
     "react-test-renderer": "^16.13.0",
-    "start-server-and-test": "^1.10.9",
+    "start-server-and-test": "^1.10.10",
     "tailwindcss": "^1.2.0",
     "typescript": "^3.8.3"
   }
