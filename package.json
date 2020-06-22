@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": "https://github.com/tvararu/next-ts-boilerplate",
   "engines": {
-    "node": "10.16.0"
+    "node": ">=10 <11"
   },
   "private": true,
   "scripts": {
