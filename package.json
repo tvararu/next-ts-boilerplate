@@ -35,7 +35,7 @@
     "now": "^19.1.2",
     "react-test-renderer": "^16.13.1",
     "start-server-and-test": "^1.11.2",
-    "tailwindcss": "^1.5.1",
+    "tailwindcss": "^1.5.2",
     "typescript": "^3.9.7"
   }
 }
