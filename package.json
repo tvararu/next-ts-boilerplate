@@ -30,7 +30,7 @@
     "@zeit/next-css": "^1.0.1",
     "cssnano": "^4.1.10",
     "cypress": "^5.3.0",
-    "jest": "^26.5.2",
+    "jest": "^26.5.3",
     "next-purgecss": "^3.1.2",
     "now": "^20.1.2",
     "react-test-renderer": "^16.13.1",
