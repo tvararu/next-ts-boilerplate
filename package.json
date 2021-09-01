@@ -18,7 +18,7 @@
     "test": "cypress run"
   },
   "dependencies": {
-    "next": "10.0.5",
+    "next": "11.1.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
